@@ -865,3 +865,21 @@ class RazerAbyssus1800(__RazerDevice):
     DPI_MAX = 1800
 
     # TODO: Find device images
+
+class RazerBasilisk(__RazerDevice):
+    """
+    Class for the Razer Basilisk
+    """
+    USB_VID = 0x1532
+    USB_PID = 0x0064
+    HAS_MATRIX = False
+    METHODS = ['get_firmware', 'get_device_name', 'get_device_type_mouse', 'max_dpi', 'get_dpi_xy_byte', 'set_dpi_xy_byte', 'get_poll_rate', 'set_poll_rate', 'get_scroll_brightness', 'set_scroll_brightness', 'get_logo_active', 'set_logo_active']
+
+    RAZER_URLS = {
+        "store": None,
+        "top_img": "https://d1urewwzb2qwii.cloudfront.net/sys-master/root/ha8/h43/8897347649566/Razer-Basilisk-Ergonomic-FPS-Gaming-Mouse.jpg",
+        "side_img": "https://d1urewwzb2qwii.cloudfront.net/sys-master/root/hd6/h3f/8897347780638/Razer-Basilisk-Ergonomic-FPS-Mouse.jpg",
+        "perspective_img": "https://d1urewwzb2qwii.cloudfront.net/sys-master/root/h96/h40/8897347715102/Razer-Basilisk-Ergonomic-Mouse.jpg"
+    }
+
+    DPI_MAX = 16000

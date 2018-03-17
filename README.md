@@ -63,6 +63,7 @@ Also this is the master branch, devices may appear in the tables below but might
 | Razer Naga Chroma               |  1532:0053  |   ✔    |   ✔    |
 | Razer Abyssus V2                |  1532:005B  |   ✔    |   ✔    |
 | Razer DeathAdder Elite          |  1532:005C  |   ✔    |   ✔    |
+| Razer Basilisk                  |  1532:0064  |   ✔    |   ✔    |
 
 ### Mousemats
 | Device        | USB VID:PID | Driver | Daemon |
